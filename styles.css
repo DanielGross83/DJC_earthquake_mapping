@@ -1,0 +1,24 @@
+.right-text {
+    font-size: 16px;
+    font-family: sans-serif;
+    fill: #333; /* Align text to the start (left) */
+    width: 500px; /* Adjust as needed */
+    padding: 15px;
+}
+
+.container {
+    display: flex; /* Enable flexbox */
+    align-items: flex-start; /* Align items to the top */
+}
+
+div.tooltip-donut {
+    position: absolute;
+    text-align: center;
+    padding: .5rem;
+    background: #FFFFFF;
+    color: #313639;
+    border: 1px solid #313639;
+    border-radius: 8px;
+    pointer-events: none;
+    font-size: 1.3rem;
+}
